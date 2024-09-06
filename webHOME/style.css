@@ -1,0 +1,75 @@
+@charset "UTF-8";
+html{
+    width: 1240px;
+    margin:0px auto;
+}
+header{
+    width:1240px;
+}
+header img{ /*top画像*/
+    width: 1240px;
+    margin:20px auto;
+    border-bottom: 20px double black;
+}
+body{
+    background-image: url(../webHOME/bg.png);
+}
+
+
+
+/*ボタン⬇️*/
+article ul li a{
+    background-color:rgba(255, 0, 0, 0.7);
+    display:block;
+    padding:30px 0px;
+    font-size: 20px;
+}
+article ul{
+    width: 320px;
+    margin: 20px auto;
+    text-align: center; 
+}
+article ul li{/*ボタンの間*/
+    margin-bottom:20px;
+}
+article ul li a:hover{
+text-decoration: underline double;
+}
+article nav{
+    width:620px;
+    background-image: url(../webHOME/web_topぼかし.png); 
+    background-size: contain;
+    margin: 40px auto;
+    padding:10px 0px;
+}
+
+
+main{
+    padding:30px;
+}
+main section h4{
+    font-size: 36px;
+    text-align: center;
+}
+main section nav{/*かこい*/
+    width: 940px;
+    background-color: aliceblue;
+    margin: 10px auto;
+}
+main section ul{
+    display:flex;
+    margin: 10px auto;
+}
+main section ul li{
+    font-size: 18px;
+    padding: 50px 3px;
+}
+main section ul li a{
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+main section nav img{
+    width:200px;
+    padding-left: 0px;
+    padding: 10px;
+}

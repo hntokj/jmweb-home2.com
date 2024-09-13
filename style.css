@@ -13,6 +13,7 @@ header img{ /*top画像*/
 }
 body{
     background-image: url("https://github.com/hntokj/jmweb_home.com/blob/main/web-bg.jpg?raw=true");
+    width:100%;
 }
 
 
